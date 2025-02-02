@@ -1,20 +1,39 @@
-# iPhone Animated Web
+# Ultimate Animation
 
-An innovative animated web project that brings the sleek, modern feel of an iPhone to life directly in your browser. With smooth animations, a responsive design, and interactive elements, this project delivers a dynamic user experience that emulates native mobile interactions.
-
-![iPhone Animated Web](https://files.oaiusercontent.com/file-WNn4zj7ThVTzMcWbsMdfP4?se=2025-02-02T20%3A41%3A25Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Db1706951-117f-4de8-8f7d-3adb955c6284.webp&sig=hW5Y4KDhyIw5ZN/sNLzBaDptV/yEhNMQbibxS9B71zc%3D)
+This is a dynamic, interactive web page designed for showcasing the iPhone 13 Pro. The webpage includes animations, videos, and interactive elements for an immersive user experience. It demonstrates advanced CSS and JavaScript techniques like animations and scrolling effects, using GSAP (GreenSock Animation Platform) and ScrollTrigger for smooth animations on scroll.
 
 ## Features
 
-- **Responsive Design:** Optimized for all devices, with a particular focus on mobile and iPhone screens.
-- **Smooth Animations:** Utilizes modern CSS and JavaScript techniques (including GSAP) to create fluid, captivating transitions.
-- **Interactive UI:** Touch-friendly interactions that simulate the native iPhone experience.
-- **Performance Optimized:** Lazy-loaded assets and dynamic content for faster, more efficient interactivity.
-- **GSAP (GreenSock Animation Platform):** (Optional) For advanced, high-performance animations.
+- **Intro Animation:** A full-screen introductory video featuring an animation for the iPhone 13 Pro.
+- **Interactive Elements:** Hover effects, responsive navigation bar, and animated content as you scroll.
+- **Product Information:** Multiple sections showcasing product details like tech specs, available models, camera features, and display.
+- **Gallery:** A gallery of iPhone 13 Pro models in different colors (Blue, Silver, Gold, Graphite).
+- **Video Scroll Effects:** Smooth scrolling with a video that plays as you scroll through the page.
+- **Responsive Design:** Optimized for different screen sizes and devices.
 
 ## Technologies Used
 
-- **HTML5:** Semantic and accessible markup.
-- **CSS3:** Advanced styling and animations with Flexbox, Grid, and transitions.
-- **JavaScript (ES6+):** Dynamic content and interactivity.
-- **GSAP (GreenSock Animation Platform):** (Optional) For complex, high-performance animations.
+- **HTML:** For the structure and content of the page.
+- **CSS:** For styling the page and creating animations.
+- **JavaScript (GSAP):** For smooth animations and scroll-triggered effects.
+- **GSAP ScrollTrigger:** To trigger animations during scrolling.
+- **Videos:** Various product-related videos are included.
+
+## Files
+
+- `index.html`: Main HTML file for the webpage.
+- `style.css`: Contains all styling for the page, including layout, animations, and transitions.
+- `app.js`: JavaScript file responsible for animations using GSAP and ScrollTrigger.
+- `images/`: A folder containing all the images and videos used throughout the site.
+
+## Setup
+
+1. Clone this repository or download the files.
+2. Open `index.html` in a browser to view the webpage.
+
+## Dependencies
+
+- [GSAP](https://greensock.com/gsap/) - Used for advanced animation control.
+- [ScrollTrigger](https://greensock.com/scrolltrigger/) - GSAP plugin to trigger animations when scrolling.
+
+To include GSAP and ScrollTrigger, the following CDN links are used in the HTML:
