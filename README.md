@@ -26,11 +26,6 @@ This is a dynamic, interactive web page designed for showcasing the iPhone 13 Pr
 - `app.js`: JavaScript file responsible for animations using GSAP and ScrollTrigger.
 - `images/`: A folder containing all the images and videos used throughout the site.
 
-## Setup
-
-1. Clone this repository or download the files.
-2. Open `index.html` in a browser to view the webpage.
-
 ## Dependencies
 
 - [GSAP](https://greensock.com/gsap/) - Used for advanced animation control.
